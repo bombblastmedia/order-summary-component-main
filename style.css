@@ -39,14 +39,24 @@ body {
 }
 
 .mob-card {
-    width: 21.88rem;
-    height: 37.38rem;
+    width: 28.125em;
+    height: 43.438rem;
     background: #ffffff;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
     margin-top: 20%;
     margin-bottom: 10%;
+    color: var(--desaturated-blue);
+}
+
+.image-hero {
+   
+    width: 454.09px;
+    height: 222px;
+    left: 493px;
+    top: 102px;
+    border-radius: 20px 20px 0px 0px;
 }
