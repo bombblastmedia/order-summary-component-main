@@ -66,6 +66,10 @@ body {
     top: 102px;
     border-radius: 20px 20px 0px 0px;
 }
+
+.container{
+    padding: 30px;
+}
  
 .title {
     display: flex;
