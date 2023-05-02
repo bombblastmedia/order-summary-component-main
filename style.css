@@ -75,7 +75,47 @@ body {
     padding: 0px 2.5em;
 }
 
+
+
+.plan-container {
+    background-color: var(--very-pale-blue);
+    padding: 25px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
 .music-icon {
     width: 48px;
     height: 48px;
+}
+
+.plan-description {
+    line-height: 10px;
+    margin-right: 85px;
+    padding-top: 10px;
+}
+
+.plan-container a {
+    color: var(--bright-blue);
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.plan-container a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.plan-container strong {
+    color: var(--dark-blue);
 }
