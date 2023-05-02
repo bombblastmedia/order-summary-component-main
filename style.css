@@ -54,8 +54,7 @@ body {
     color: var(--desaturated-blue);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
     text-align: center;
 }
 
@@ -76,3 +75,7 @@ body {
     padding: 0px 2.5em;
 }
 
+.music-icon {
+    width: 48px;
+    height: 48px;
+}
